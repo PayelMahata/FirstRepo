@@ -8,4 +8,8 @@ node()
     {
         echo "Building"
     }
+     stage("Deploy")
+    {
+        echo "Deploying"
+    }
 }
